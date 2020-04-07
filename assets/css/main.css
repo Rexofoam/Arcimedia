@@ -2,6 +2,10 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 
+@font-face {
+  font-family: header;
+  src: url(../fonts/bankgoth.ttf);
+}
 /*
 	Hielo by TEMPLATED
 	templated.co @templatedco
@@ -47,6 +51,10 @@
 
 	body {
 		-webkit-text-size-adjust: none;
+	}
+
+	title {
+		font-family: header !important;
 	}
 
 /* Box Model */
