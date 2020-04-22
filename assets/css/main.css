@@ -3801,7 +3801,7 @@
 				padding-right: 1.25em;
 			}
 
-			@media screen and (max-width: 736px) {
+			@media screen and (max-width: 900px) {
 
 				#header > a {
 					padding: 0 0.5em;
@@ -3815,6 +3815,18 @@
 					#header > a:last-child {
 						padding-right: 1em;
 					}
+
+				.big-screen {
+					display: none !important;
+				}
+
+			}
+
+			@media screen and (min-width: 900px) {
+
+				.small-screen {
+					display: none !important;
+				}
 
 			}
 
