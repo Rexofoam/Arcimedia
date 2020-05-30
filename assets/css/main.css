@@ -224,6 +224,18 @@
 
 	}
 
+	.imgholder {
+		margin:-70px 0 0 -40px;
+	    height: 190px;
+	}
+
+	@media screen and (max-width: 700px) {
+		.imgholder {
+			margin: -55px 0 0 -60px;
+		    height: 140px;
+		}
+	}
+
 /* Grid */
 
 	.row {
@@ -3719,7 +3731,7 @@
 		background: rgba(0, 0, 0, 0.975);
 		color: #a6a6a6;
 		cursor: default;
-		height: 3.25em;
+		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
 		position: fixed;
