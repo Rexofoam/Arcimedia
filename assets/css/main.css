@@ -251,7 +251,20 @@
 			margin-left: calc(50% - 180px) !important;;
 		}
 	}
-
+/* List of projects */
+	.img-mobile {
+		width: 250px;
+		margin-right: 250px;
+	}
+	@media screen and (max-width: 1080px) {
+		.img-mobile {
+			display: none;
+			margin-right: 100px;
+		}
+		.txt-mobile {
+			margin-left: calc(50% - 125px);
+		}
+	}
 /* Grid */
 
 	.row {
