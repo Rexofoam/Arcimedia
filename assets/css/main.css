@@ -256,10 +256,18 @@
 		width: 250px;
 		margin-right: 250px;
 	}
+
+	.img-mobile2 {
+		width: 250px;
+		margin-left: 250px;
+	}
 	@media screen and (max-width: 1080px) {
 		.img-mobile {
 			display: none;
 			margin-right: 100px;
+		}
+		.img-mobile2 {
+			display: none;
 		}
 		.txt-mobile {
 			margin-left: calc(50% - 125px);
