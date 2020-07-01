@@ -261,6 +261,11 @@
 		width: 250px;
 		margin-left: 200px;
 	}
+
+	.hide-text {
+
+	}
+
 	@media screen and (max-width: 1080px) {
 		.img-mobile {
 			display: none;
@@ -271,6 +276,9 @@
 		}
 		.txt-mobile {
 			margin-left: calc(50% - 125px);
+		}
+		.hide-text {
+			display: none;
 		}
 	}
 /* Grid */
