@@ -253,19 +253,14 @@
 	}
 /* List of projects */
 	.img-mobile {
-		width: 240px;
-		margin-right: 240px;
+		width: 250px;
+		margin-right: 250px;
 	}
 
 	.img-mobile2 {
 		width: 250px;
-		margin-left: 200px;
+		margin-left: 250px;
 	}
-
-	.hide-text {
-
-	}
-
 	@media screen and (max-width: 1080px) {
 		.img-mobile {
 			display: none;
@@ -276,9 +271,6 @@
 		}
 		.txt-mobile {
 			margin-left: calc(50% - 125px);
-		}
-		.hide-text {
-			display: none;
 		}
 	}
 /* Grid */
@@ -2045,7 +2037,7 @@
 	button,
 	.button {
 		background-color: #f2f2f2;
-		color: #000 !important;
+		color: #ffffff !important;
 	}
 
 		input[type="submit"]:hover,
